@@ -1,0 +1,102 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #00ff99;
+    text-align: center;
+    padding-top: 40px;
+    min-height: 100vh;
+}
+
+/* TITRE */
+h1 {
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+/* IMAGE CYBER */
+.cyber-img {
+    width: 260px;
+    margin: 20px auto 30px auto;
+    display: block;
+}
+
+/* BOUTON */
+button {
+    padding: 15px 35px;
+    font-size: 16px;
+    background-color: #111;
+    color: #00ff99;
+    border: 2px solid #00ff99;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00ff99;
+    color: #111;
+}
+
+/* MOT DE PASSE */
+#resultat {
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 6px #00ff99;
+}
+
+/* FOOTER GLOBAL */
+footer {
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* INSTAGRAM */
+.footer-left {
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+}
+
+.footer-left a {
+    color: #00ff99;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.insta-logo {
+    width: 22px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* NOM + 🇫🇷 + MAIL */
+.footer-right {
+    position: absolute;
+    right: 20px;
+    bottom: 85px;
+    text-align: right;
+    transform: translateX(-38px); /* ← 1 cm vers la gauche */
+}
+
+.name {
+    font-weight: bold;
+    display: block;
+}
+
+.mail {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.footer-right a {
+    color: #00ff99;
+    text-decoration: none;
+}
